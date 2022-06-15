@@ -17,7 +17,7 @@ basic.forever(function () {
     }
     if (joyY < 400 && catcher.get(LedSpriteProperty.Y) <= 3) {
         catcher.change(LedSpriteProperty.Y, 1)
-    } else if (joyX > 600 && catcher.get(LedSpriteProperty.X) >= 1) {
+    } else if (joyY > 600 && catcher.get(LedSpriteProperty.Y) >= 1) {
         catcher.change(LedSpriteProperty.Y, -1)
     }
     if (joyZ < 200) {
